@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5F7AE91EB0F2B200E8546A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F7AE81EB0F2B200E8546A /* AppDelegate.swift */; };
+		5B5F7AEB1EB0F2B200E8546A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F7AEA1EB0F2B200E8546A /* ViewController.swift */; };
+		5B5F7AEE1EB0F2B200E8546A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7AEC1EB0F2B200E8546A /* Main.storyboard */; };
+		5B5F7AF11EB0F2B200E8546A /* BlurrApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F7AEF1EB0F2B200E8546A /* BlurrApp.xcdatamodeld */; };
+		5B5F7AF31EB0F2B200E8546A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7AF21EB0F2B200E8546A /* Assets.xcassets */; };
+		5B5F7AF61EB0F2B200E8546A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7AF41EB0F2B200E8546A /* LaunchScreen.storyboard */; };
+		5B5F7B011EB0F2B300E8546A /* BlurrAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F7B001EB0F2B300E8546A /* BlurrAppTests.swift */; };
+		5B5F7B0C1EB0F2B300E8546A /* BlurrAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5F7B0B1EB0F2B300E8546A /* BlurrAppUITests.swift */; };
+		5B5F7B1B1EB0F45600E8546A /* Istanbul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B191EB0F45600E8546A /* Istanbul.jpg */; };
+		5B5F7B1C1EB0F45600E8546A /* Rome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B1A1EB0F45600E8546A /* Rome.jpg */; };
+		5B5F7B1E1EB0F62700E8546A /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B1D1EB0F62700E8546A /* images.jpg */; };
+		5B5F7B251EB0FC9E00E8546A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B211EB0FC9E00E8546A /* 2.jpg */; };
+		5B5F7B261EB0FC9E00E8546A /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B221EB0FC9E00E8546A /* 3.jpg */; };
+		5B5F7B271EB0FC9E00E8546A /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B231EB0FC9E00E8546A /* 4.jpg */; };
+		5B5F7B281EB0FC9E00E8546A /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B5F7B241EB0FC9E00E8546A /* 5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B5F7AFD1EB0F2B300E8546A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5F7ADD1EB0F2B200E8546A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5F7AE41EB0F2B200E8546A;
+			remoteInfo = BlurrApp;
+		};
+		5B5F7B081EB0F2B300E8546A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B5F7ADD1EB0F2B200E8546A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5F7AE41EB0F2B200E8546A;
+			remoteInfo = BlurrApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B5F7AE51EB0F2B200E8546A /* BlurrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5F7AE81EB0F2B200E8546A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B5F7AEA1EB0F2B200E8546A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B5F7AED1EB0F2B200E8546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B5F7AF01EB0F2B200E8546A /* BlurrApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlurrApp.xcdatamodel; sourceTree = "<group>"; };
+		5B5F7AF21EB0F2B200E8546A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B5F7AF51EB0F2B200E8546A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B5F7AF71EB0F2B200E8546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5F7AFC1EB0F2B300E8546A /* BlurrAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5F7B001EB0F2B300E8546A /* BlurrAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurrAppTests.swift; sourceTree = "<group>"; };
+		5B5F7B021EB0F2B300E8546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5F7B071EB0F2B300E8546A /* BlurrAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurrAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5F7B0B1EB0F2B300E8546A /* BlurrAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurrAppUITests.swift; sourceTree = "<group>"; };
+		5B5F7B0D1EB0F2B300E8546A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5F7B191EB0F45600E8546A /* Istanbul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Istanbul.jpg; path = "../../Parse App/TripCard/Assets.xcassets/Istanbul.jpg"; sourceTree = "<group>"; };
+		5B5F7B1A1EB0F45600E8546A /* Rome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rome.jpg; path = "../../Parse App/TripCard/Assets.xcassets/Rome.jpg"; sourceTree = "<group>"; };
+		5B5F7B1D1EB0F62700E8546A /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		5B5F7B211EB0FC9E00E8546A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../2.jpg; sourceTree = "<group>"; };
+		5B5F7B221EB0FC9E00E8546A /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../3.jpg; sourceTree = "<group>"; };
+		5B5F7B231EB0FC9E00E8546A /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../4.jpg; sourceTree = "<group>"; };
+		5B5F7B241EB0FC9E00E8546A /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5F7AE21EB0F2B200E8546A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F7AF91EB0F2B300E8546A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F7B041EB0F2B300E8546A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B5F7ADC1EB0F2B200E8546A = {
+			isa = PBXGroup;
+			children = (
+				5B5F7AE71EB0F2B200E8546A /* BlurrApp */,
+				5B5F7AFF1EB0F2B300E8546A /* BlurrAppTests */,
+				5B5F7B0A1EB0F2B300E8546A /* BlurrAppUITests */,
+				5B5F7AE61EB0F2B200E8546A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5F7AE61EB0F2B200E8546A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F7AE51EB0F2B200E8546A /* BlurrApp.app */,
+				5B5F7AFC1EB0F2B300E8546A /* BlurrAppTests.xctest */,
+				5B5F7B071EB0F2B300E8546A /* BlurrAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5F7AE71EB0F2B200E8546A /* BlurrApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F7AE81EB0F2B200E8546A /* AppDelegate.swift */,
+				5B5F7AEA1EB0F2B200E8546A /* ViewController.swift */,
+				5B5F7AEC1EB0F2B200E8546A /* Main.storyboard */,
+				5B5F7B191EB0F45600E8546A /* Istanbul.jpg */,
+				5B5F7B1A1EB0F45600E8546A /* Rome.jpg */,
+				5B5F7AF21EB0F2B200E8546A /* Assets.xcassets */,
+				5B5F7B211EB0FC9E00E8546A /* 2.jpg */,
+				5B5F7B221EB0FC9E00E8546A /* 3.jpg */,
+				5B5F7B231EB0FC9E00E8546A /* 4.jpg */,
+				5B5F7B241EB0FC9E00E8546A /* 5.jpg */,
+				5B5F7B1D1EB0F62700E8546A /* images.jpg */,
+				5B5F7AF41EB0F2B200E8546A /* LaunchScreen.storyboard */,
+				5B5F7AF71EB0F2B200E8546A /* Info.plist */,
+				5B5F7AEF1EB0F2B200E8546A /* BlurrApp.xcdatamodeld */,
+			);
+			path = BlurrApp;
+			sourceTree = "<group>";
+		};
+		5B5F7AFF1EB0F2B300E8546A /* BlurrAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F7B001EB0F2B300E8546A /* BlurrAppTests.swift */,
+				5B5F7B021EB0F2B300E8546A /* Info.plist */,
+			);
+			path = BlurrAppTests;
+			sourceTree = "<group>";
+		};
+		5B5F7B0A1EB0F2B300E8546A /* BlurrAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F7B0B1EB0F2B300E8546A /* BlurrAppUITests.swift */,
+				5B5F7B0D1EB0F2B300E8546A /* Info.plist */,
+			);
+			path = BlurrAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5F7AE41EB0F2B200E8546A /* BlurrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5F7B101EB0F2B300E8546A /* Build configuration list for PBXNativeTarget "BlurrApp" */;
+			buildPhases = (
+				5B5F7AE11EB0F2B200E8546A /* Sources */,
+				5B5F7AE21EB0F2B200E8546A /* Frameworks */,
+				5B5F7AE31EB0F2B200E8546A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurrApp;
+			productName = BlurrApp;
+			productReference = 5B5F7AE51EB0F2B200E8546A /* BlurrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B5F7AFB1EB0F2B300E8546A /* BlurrAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5F7B131EB0F2B300E8546A /* Build configuration list for PBXNativeTarget "BlurrAppTests" */;
+			buildPhases = (
+				5B5F7AF81EB0F2B300E8546A /* Sources */,
+				5B5F7AF91EB0F2B300E8546A /* Frameworks */,
+				5B5F7AFA1EB0F2B300E8546A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5F7AFE1EB0F2B300E8546A /* PBXTargetDependency */,
+			);
+			name = BlurrAppTests;
+			productName = BlurrAppTests;
+			productReference = 5B5F7AFC1EB0F2B300E8546A /* BlurrAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B5F7B061EB0F2B300E8546A /* BlurrAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5F7B161EB0F2B300E8546A /* Build configuration list for PBXNativeTarget "BlurrAppUITests" */;
+			buildPhases = (
+				5B5F7B031EB0F2B300E8546A /* Sources */,
+				5B5F7B041EB0F2B300E8546A /* Frameworks */,
+				5B5F7B051EB0F2B300E8546A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B5F7B091EB0F2B300E8546A /* PBXTargetDependency */,
+			);
+			name = BlurrAppUITests;
+			productName = BlurrAppUITests;
+			productReference = 5B5F7B071EB0F2B300E8546A /* BlurrAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B5F7ADD1EB0F2B200E8546A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wasim Ahmad";
+				TargetAttributes = {
+					5B5F7AE41EB0F2B200E8546A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5B5F7AFB1EB0F2B300E8546A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B5F7AE41EB0F2B200E8546A;
+					};
+					5B5F7B061EB0F2B300E8546A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B5F7AE41EB0F2B200E8546A;
+					};
+				};
+			};
+			buildConfigurationList = 5B5F7AE01EB0F2B200E8546A /* Build configuration list for PBXProject "BlurrApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B5F7ADC1EB0F2B200E8546A;
+			productRefGroup = 5B5F7AE61EB0F2B200E8546A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5F7AE41EB0F2B200E8546A /* BlurrApp */,
+				5B5F7AFB1EB0F2B300E8546A /* BlurrAppTests */,
+				5B5F7B061EB0F2B300E8546A /* BlurrAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5F7AE31EB0F2B200E8546A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5F7AF61EB0F2B200E8546A /* LaunchScreen.storyboard in Resources */,
+				5B5F7B281EB0FC9E00E8546A /* 5.jpg in Resources */,
+				5B5F7B1B1EB0F45600E8546A /* Istanbul.jpg in Resources */,
+				5B5F7B251EB0FC9E00E8546A /* 2.jpg in Resources */,
+				5B5F7B1C1EB0F45600E8546A /* Rome.jpg in Resources */,
+				5B5F7AF31EB0F2B200E8546A /* Assets.xcassets in Resources */,
+				5B5F7AEE1EB0F2B200E8546A /* Main.storyboard in Resources */,
+				5B5F7B271EB0FC9E00E8546A /* 4.jpg in Resources */,
+				5B5F7B1E1EB0F62700E8546A /* images.jpg in Resources */,
+				5B5F7B261EB0FC9E00E8546A /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F7AFA1EB0F2B300E8546A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F7B051EB0F2B300E8546A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5F7AE11EB0F2B200E8546A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5F7AF11EB0F2B200E8546A /* BlurrApp.xcdatamodeld in Sources */,
+				5B5F7AEB1EB0F2B200E8546A /* ViewController.swift in Sources */,
+				5B5F7AE91EB0F2B200E8546A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F7AF81EB0F2B300E8546A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5F7B011EB0F2B300E8546A /* BlurrAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5F7B031EB0F2B300E8546A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5F7B0C1EB0F2B300E8546A /* BlurrAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B5F7AFE1EB0F2B300E8546A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B5F7AE41EB0F2B200E8546A /* BlurrApp */;
+			targetProxy = 5B5F7AFD1EB0F2B300E8546A /* PBXContainerItemProxy */;
+		};
+		5B5F7B091EB0F2B300E8546A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B5F7AE41EB0F2B200E8546A /* BlurrApp */;
+			targetProxy = 5B5F7B081EB0F2B300E8546A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B5F7AEC1EB0F2B200E8546A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5F7AED1EB0F2B200E8546A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B5F7AF41EB0F2B200E8546A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5F7AF51EB0F2B200E8546A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5F7B0E1EB0F2B300E8546A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B5F7B0F1EB0F2B300E8546A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5F7B111EB0F2B300E8546A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.was.iOS.BlurrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B5F7B121EB0F2B300E8546A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurrApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.was.iOS.BlurrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B5F7B141EB0F2B300E8546A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurrAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.was.iOS.BlurrAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurrApp.app/BlurrApp";
+			};
+			name = Debug;
+		};
+		5B5F7B151EB0F2B300E8546A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlurrAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.was.iOS.BlurrAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurrApp.app/BlurrApp";
+			};
+			name = Release;
+		};
+		5B5F7B171EB0F2B300E8546A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BlurrAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.was.iOS.BlurrAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BlurrApp;
+			};
+			name = Debug;
+		};
+		5B5F7B181EB0F2B300E8546A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BlurrAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.was.iOS.BlurrAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BlurrApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B5F7AE01EB0F2B200E8546A /* Build configuration list for PBXProject "BlurrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5F7B0E1EB0F2B300E8546A /* Debug */,
+				5B5F7B0F1EB0F2B300E8546A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5F7B101EB0F2B300E8546A /* Build configuration list for PBXNativeTarget "BlurrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5F7B111EB0F2B300E8546A /* Debug */,
+				5B5F7B121EB0F2B300E8546A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B5F7B131EB0F2B300E8546A /* Build configuration list for PBXNativeTarget "BlurrAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5F7B141EB0F2B300E8546A /* Debug */,
+				5B5F7B151EB0F2B300E8546A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B5F7B161EB0F2B300E8546A /* Build configuration list for PBXNativeTarget "BlurrAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5F7B171EB0F2B300E8546A /* Debug */,
+				5B5F7B181EB0F2B300E8546A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B5F7AEF1EB0F2B200E8546A /* BlurrApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B5F7AF01EB0F2B200E8546A /* BlurrApp.xcdatamodel */,
+			);
+			currentVersion = 5B5F7AF01EB0F2B200E8546A /* BlurrApp.xcdatamodel */;
+			path = BlurrApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B5F7ADD1EB0F2B200E8546A /* Project object */;
+}

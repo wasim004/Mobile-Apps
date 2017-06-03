@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MapKitDirection/MapViewController.swift"
+            timestampString = "516715026.572396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "MapViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapKitDirection.MapViewController.currentTransportType.getter : __C.MKDirectionsTransportType"
+                  moduleName = "MapKitDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakutylev/Desktop/salahuddin/MapKitDirection-2-2/MapKitDirection/MapViewController.swift"
+                  timestampString = "516714835.183565"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapKitDirection.MapViewController.currentTransportType.setter : __C.MKDirectionsTransportType"
+                  moduleName = "MapKitDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakutylev/Desktop/salahuddin/MapKitDirection-2-2/MapKitDirection/MapViewController.swift"
+                  timestampString = "516714835.186236"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapKitDirection.MapViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MapKitDirection.MapViewController"
+                  moduleName = "MapKitDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakutylev/Desktop/salahuddin/MapKitDirection-2-2/MapKitDirection/MapViewController.swift"
+                  timestampString = "516714835.187599"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MapKitDirection.MapViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MapKitDirection.MapViewController&gt;"
+                  moduleName = "MapKitDirection"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakutylev/Desktop/salahuddin/MapKitDirection-2-2/MapKitDirection/MapViewController.swift"
+                  timestampString = "516714835.189097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "65">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
